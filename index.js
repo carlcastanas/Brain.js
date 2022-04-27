@@ -1,6 +1,5 @@
-const jsonfile = require('jsonfile');
-const moment = require('moment');
-const simpleGit = require('simple-git');
+//const jsonfile = require('jsonfile');
+//const moment = require('moment');
 const randon = require('random');
 const FILE_PATH = './data.json';
 
@@ -20,4 +19,4 @@ const makeCommit = n => {
     });
 }
 
-makeCommit(100);
+makeCommit(1);
